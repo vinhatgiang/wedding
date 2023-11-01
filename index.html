@@ -1,152 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="theme-color" content="#BC8887" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Đám cưới Thanh Trang - Đình Hải</title>
 
-    <meta property="og:title" content="Đám cưới Thanh Trang - Đình Hải">
-    <meta property="og:description" content="Đám cưới Thanh Trang - Đình Hải">
-    <meta property="og:locale" content="id_ID" />
-    <meta property="og:image" content="https://sherly.dae.ng/image/sherly-daeng-wedding-thumbnail.png">
-    <meta property="og:url" content="http://sherly.dae.ng/index.html">
-    <meta name="twitter:card" content="summary_large_image">
-    <!-- Bulma Version 0.8.x-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/menikah.css" />
-    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="theme-color" content="#BC8887" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Đám cưới Thanh Trang - Đình Hải</title>
 
-    <script
-      src="https://kit.fontawesome.com/2828f7885a.js"
-      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
-      crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/jquery.coundown.js"></script>
-    <link rel="icon" type="image/png" href="image/favicon.png" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
-    <!-- Begin Script for Countdown -->
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-23064379-20');
-    </script>
-    <!-- Begin Script for Countdown -->
+  <meta property="og:title" content="Đám cưới Thanh Trang - Đình Hải">
+  <meta property="og:description" content="Đám cưới Thanh Trang - Đình Hải">
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:image" content="https://sherly.dae.ng/image/sherly-daeng-wedding-thumbnail.png">
+  <meta property="og:url" content="http://sherly.dae.ng/index.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Bulma Version 0.8.x-->
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/menikah.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-    <!-- Github Button -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/2828f7885a.js"
+    integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/jquery.coundown.js"></script>
+  <link rel="icon" type="image/png" href="image/favicon.png" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
+  <!-- Begin Script for Countdown -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-23064379-20');
+  </script>
+  <!-- Begin Script for Countdown -->
 
-  <body>
-    <div class="sakura-falling" style="height: max-content;"></div>
-    <div class="music">
-      <audio src="mp3/background.mp3" id="my_audio" loop="loop"></audio> 
-   </div>
-    <!-- Begin Preloader -->
-    <div class="preloader-wrapper">
-      <div class="preloader">
-        <img src="image/favicon.png" alt="Flower" />
-      </div>
+  <!-- Github Button -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+  <div class="sakura-falling" style="height: max-content;"></div>
+  <div class="music">
+    <audio src="mp3/background.mp3" id="my_audio" loop="loop"></audio>
+  </div>
+  <!-- Begin Preloader -->
+  <div class="preloader-wrapper">
+    <div class="preloader">
+      <img src="image/favicon.png" alt="Flower" />
     </div>
-    <!-- End Preloader-->
-    <!-- Begin Header -->
-    <div class="header-wrapper" id="home">
-      <!-- Begin Hero -->
-      <section class="hero is-large">
-        <nav class="navbar is-transparent is-hidden-desktop">
-          <!-- Begin Burger Menu -->
-          <div class="navbar-brand is-fixed-top">
-            <div class="navbar-burger burger" data-target="mobile-nav">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
+  </div>
+  <!-- End Preloader-->
+  <!-- Begin Header -->
+  <div class="header-wrapper" id="home">
+    <!-- Begin Hero -->
+    <section class="hero is-large">
+      <nav class="navbar is-transparent is-hidden-desktop">
+        <!-- Begin Burger Menu -->
+        <div class="navbar-brand is-fixed-top">
+          <div class="navbar-burger burger" data-target="mobile-nav">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-          <!-- End Burger Menu -->
-          <div id="mobile-nav" class="navbar-menu">
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <a class="navbar-item" href="#Waktu">
-                  #
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#lokasi">
-                  #
-                </a>
-              </div>
-              
-              <div class="navbar-item">
-                <a class="navbar-item" href="#tentang-sherly-daeng">
-                  #
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#rsvp">
-                  #
-                </a>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <!-- End Mobile Nav -->
-        <!-- Begin Hero Content-->
-        <div class="hero-body">
-          <div class="container has-text-centered">
-            <h1 class="subtitle">Lễ Vu Quy</h1>
-            <h2 class="title">Đình Hải</h2>
-            <h2 class="title">❤</h2>
-            <h2 class="title">Thanh Trang</h2>
-            <h4 class="subtitle">
-                18 Tháng 11 2023 
-                </br>
-                Quế Tân - Quế Võ
-                </br>
-                Bắc Ninh
-  
-            </h4>
-          </div>
-          <!-- Start Countdown -->       
-          <div>
-            <ul id="hitungmundur" >
-              <li><span class="days">00</span><p class="days_text">Ngày</p></li>
-              <li class="separator">:</li>
-              <li><span class="hours">00</span><p class="hours_text">Giờ</p></li>
-              <li class="separator">:</li>
-              <li><span class="minutes">00</span><p class="minutes_text">Phút</p></li>
-              <li class="separator">:</li>
-              <li><span class="seconds">00</span><p class="seconds_text">Giây</p></li>
-            </ul>
-            <div class="spasi">
-            </div>
-            <script type="text/javascript">
-              var now = new Date();
-              var day = now.getDate();
-              var month = now.getMonth() + 1;
-              var year = now.getFullYear() + 1;
-          
-              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
-              var harih = '11/19/2023 17:00:00';
-
-              $('#hitungmundur').countdown({
-                date: harih, // TODO Date format: 07/27/2017 17:00:00
-                offset: +7, // TODO Your Timezone Offset
-                day: 'Ngày',
-                days: 'Ngày'
-              }, function () {
-                document.getElementById("my_audio").play();
-              });
-            </script>  
-          </div>
-          <!-- End Countdown -->
         </div>
-        <!-- End Hero Content-->
-        <!-- Begin Hero Menu -->
-        <!-- <div class="hero-foot ">
+        <!-- End Burger Menu -->
+        <div id="mobile-nav" class="navbar-menu">
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <a class="navbar-item" href="#Waktu">
+                Thời gian
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#lokasi">
+                Địa chỉ
+              </a>
+            </div>
+
+            <div class="navbar-item">
+              <a class="navbar-item" href="#tentang-sherly-daeng">
+                #
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#rsvp">
+                #
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End Mobile Nav -->
+      <!-- Begin Hero Content-->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="subtitle">Lễ Vu Quy</h1>
+          <h2 class="title">Đình Hải</h2>
+          <h2 class="title">❤</h2>
+          <h2 class="title">Thanh Trang</h2>
+          <h4 class="subtitle">
+            18 Tháng 11 2023
+            </br>
+            Quế Tân - Quế Võ
+            </br>
+            Bắc Ninh
+
+          </h4>
+        </div>
+        <!-- Start Countdown -->
+        <div>
+          <ul id="hitungmundur">
+            <li><span class="days">00</span>
+              <p class="days_text">Ngày</p>
+            </li>
+            <li class="separator">:</li>
+            <li><span class="hours">00</span>
+              <p class="hours_text">Giờ</p>
+            </li>
+            <li class="separator">:</li>
+            <li><span class="minutes">00</span>
+              <p class="minutes_text">Phút</p>
+            </li>
+            <li class="separator">:</li>
+            <li><span class="seconds">00</span>
+              <p class="seconds_text">Giây</p>
+            </li>
+          </ul>
+          <div class="spasi">
+          </div>
+          <script type="text/javascript">
+            var now = new Date();
+            var day = now.getDate();
+            var month = now.getMonth() + 1;
+            var year = now.getFullYear() + 1;
+
+            var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+            var harih = '11/19/2023 17:00:00';
+
+            $('#hitungmundur').countdown({
+              date: harih, // TODO Date format: 07/27/2017 17:00:00
+              offset: +7, // TODO Your Timezone Offset
+              day: 'Ngày',
+              days: 'Ngày'
+            }, function () {
+              document.getElementById("my_audio").play();
+            });
+          </script>
+        </div>
+        <!-- End Countdown -->
+      </div>
+      <!-- End Hero Content-->
+      <!-- Begin Hero Menu -->
+      <!-- <div class="hero-foot ">
           <div class="hero-foot--wrapper">
             <div class="columns">
               <div class="column is-12 hero-menu-desktop has-text-centered">
@@ -172,266 +182,346 @@
             </div>
           </div>
         </div> -->
-        <!-- End Hero Menu -->
-      </section>
-      <!-- End Hero -->
-    </div>
-    <!-- End Header -->
+      <!-- End Hero Menu -->
+    </section>
+    <!-- End Hero -->
+  </div>
+  <!-- End Header -->
 
-    <!-- Begin Main Content -->
-    <div class="main-content">
-      
-      <!-- Begin Tentang Sherly and Daeng -->
-      <section class="section-light regular-section is-fullheight" id="tentang-sherly-daeng">
-        <div class="container">
-          <div class="columns is-multiline">  
+  <!-- Begin Main Content -->
+  <div class="main-content">
+
+    <!-- Begin Tentang Sherly and Daeng -->
+    <section class="section-light regular-section is-fullheight" id="tentang-sherly-daeng">
+      <div class="container">
+        <div class="columns is-multiline">
           <div class="column has-text-centered is-12 prolog">
-            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Chúng mình đã có nhau</h1>
-            
+            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Chúng mình đã
+              có nhau</h1>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="tile is-parent">
+                    <article class="tile is-child foto1 notification foto1" data-aos="fade-up" data-aos-easing="linear">
+                      <div class="content">
+                        <p class="title-foto">Anh ấy thật là đẹp trai</p>
+                        <p class="subtitle-foto">
+                          Một con người hiền hậu và ôn hòa <a href="https://cashbac.com" target="_blank">❤</a>
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="tile is-parent">
+                    <article class="tile is-child foto1 notification foto2" data-aos="fade-up" data-aos-easing="linear">
+                      <div class="content">
+                        <p class="title-foto">Anh ấy thật là đẹp trai</p>
+                        <p class="subtitle-foto">
+                          Một con người hiền hậu và ôn hòa <a href="https://cashbac.com" target="_blank">❤</a>
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="tile is-parent">
+                    <article class="tile is-child foto1 notification foto3" data-aos="fade-up" data-aos-easing="linear">
+                      <div class="content">
+                        <p class="title-foto">Anh ấy thật là đẹp trai</p>
+                        <p class="subtitle-foto">
+                          Một con người hiền hậu và ôn hòa <a href="https://cashbac.com" target="_blank">❤</a>
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="tile is-parent">
+                    <article class="tile is-child foto1 notification foto4" data-aos="fade-up" data-aos-easing="linear">
+                      <div class="content">
+                        <p class="title-foto">Anh ấy thật là đẹp trai</p>
+                        <p class="subtitle-foto">
+                          Một con người hiền hậu và ôn hòa <a href="https://cashbac.com" target="_blank">❤</a>
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="tile is-parent">
+                    <article class="tile is-child foto1 notification foto5" data-aos="fade-up" data-aos-easing="linear">
+                      <div class="content">
+                        <p class="title-foto">Anh ấy thật là đẹp trai</p>
+                        <p class="subtitle-foto">
+                          Một con người hiền hậu và ôn hòa <a href="https://cashbac.com" target="_blank">❤</a>
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="tile is-parent">
+                    <article class="tile is-child foto1 notification foto6" data-aos="fade-up" data-aos-easing="linear">
+                      <div class="content">
+                        <p class="title-foto">Anh ấy thật là đẹp trai</p>
+                        <p class="subtitle-foto">
+                          Một con người hiền hậu và ôn hòa <a href="https://cashbac.com" target="_blank">❤</a>
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="swiper-pagination" style="margin: top 50px;"></div> -->
+            </div>
 
-          
-          <!-- IMAGES -->  
-        <div class=" tile">
-          <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child foto1 notification foto1" data-aos="fade-up" data-aos-easing="linear">
-              <div class="content">
-                <p class="title-foto">Anh ấy thật là đẹp trai</p>
-                <p class="subtitle-foto">
-                  Một con người hiền hậu và ôn hòa <a href="https://cashbac.com" target="_blank">❤</a>
-                </p>
+            <!-- IMAGES -->
+            <!-- <div class=" tile">
+              <div class="tile is-ancestor">
+                <div class="tile is-parent">
+                  <article class="tile is-child foto1 notification foto1" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="content">
+                      <p class="title-foto">Anh ấy thật là đẹp trai</p>
+                      <p class="subtitle-foto">
+                        Một con người hiền hậu và ôn hòa <a href="https://cashbac.com" target="_blank">❤</a>
+                      </p>
+                    </div>
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child notification foto2" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="content">
+                      <p class="title-foto">
+                        #
+                      </p>
+                      <p class="subtitle-foto">
+                        #
+                      </p>
+                    </div>
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child notification foto3" data-aos="fade-up" data-aos-easing="linear">
+                    <div class="content">
+                      <p class="title-foto">
+                        #
+                      </p>
+                      <p class="subtitle-foto">
+                        #
+                      </p>
+                    </div>
+                  </article>
+                </div>
               </div>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification foto2" data-aos="fade-up" data-aos-easing="linear">
-              <div class="content">
-                <p class="title-foto">
-                  #
-                </p>
-                <p class="subtitle-foto">
-                 # 
-                </p>   
-              </div>            
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification foto3" data-aos="fade-up" data-aos-easing="linear">
-              <div class="content">  
-                <p class="title-foto">
-                 #
-                </p>
-                <p class="subtitle-foto">
-                  #
-                </p>
+            </div> -->
+            <!-- <div class="space24px"></div>
+            <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                <article class="tile is-child notification foto6" data-aos="fade-up" data-aos-easing="linear">
+                  <div class="content">
+                    <p class="title-foto">#</p>
+                    <p class="subtitle-foto">#</p>
+                  </div>
+                </article>
               </div>
-            </article>
-          </div>
-        </div>
-      </div>
-      <div class="space24px"></div>
-      <div class="tile is-ancestor">
-        <div class="tile is-parent">
-          <article class="tile is-child notification foto6" data-aos="fade-up" data-aos-easing="linear">
-            <div class="content">
-              <p class="title-foto">#</p>
-              <p class="subtitle-foto">#</p>
-            </div>
-          </article>
-        </div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification foto4" data-aos="fade-up" data-aos-easing="linear">
-            <div class="content">
-              <p class="title-foto">#</p>
-              <p class="subtitle-foto">#</p>
-            </div>
-          </article>
-        </div>
-        <div class="tile is-parent">              
-          <article class="tile is-child notification foto5" data-aos="fade-up" data-aos-easing="linear">
-            <div class="content">
-              <p class="title-foto">#</p>
-              <p class="subtitle-foto">#</p>
-            </div>
-          </article>
-        </div>
-      </div>   
-          <!-- IMAGES -->
-          <div class="space40px"></div>
+              <div class="tile is-parent">
+                <article class="tile is-child notification foto4" data-aos="fade-up" data-aos-easing="linear">
+                  <div class="content">
+                    <p class="title-foto">#</p>
+                    <p class="subtitle-foto">#</p>
+                  </div>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child notification foto5" data-aos="fade-up" data-aos-easing="linear">
+                  <div class="content">
+                    <p class="title-foto">#</p>
+                    <p class="subtitle-foto">#</p>
+                  </div>
+                </article>
+              </div>
+            </div> -->
+            <!-- IMAGES -->
+            <div class="space40px"></div>
             <div data-aos="fade-up" data-aos-easing="linear">
               <img src="image/divider-leaves.png" class="divider has-vertically-align" alt="~~~">
-            </div> 
+            </div>
             <div class="space40px"></div>
             <div class="space40px"></div>
 
           </div>
         </div>
-      </section>
-      <!-- End Tentang Sherly dan Daeng -->
+    </section>
+    <!-- End Tentang Sherly dan Daeng -->
 
     <!-- Begin regular-section-->
-     <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
-        
-        <div data-aos="fade-up" data-aos-easing="linear" >
-          <img src="image/bismillah.png" class="bismillah has-text-centered" alt="Bismillahirrahmaanirrahiim" style="width: max-content ; height: max-content;">
-        </div>
+    <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content"
+      id="regular-section">
 
-        <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
-          Khi hai ta về một nhà khép đôi mi cùng một giường
-          <br />
-          Đôi khi mơ cùng một giấc thức giấc chung một giờ
-          <br />
-          Đôi khi mơ cùng một giấc thức giấc chung một giờ
-          <br />
-          Nước mắt rơi một dòng sống chung nhau một đời
-        </p>
+      <div data-aos="fade-up" data-aos-easing="linear">
+        <img src="image/bismillah.png" class="bismillah has-text-centered" alt="Bismillahirrahmaanirrahiim"
+          style="width: max-content ; height: max-content;">
+      </div>
 
-        <span class="space40px"></span>
-        <span class="space40px"></span>
+      <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+        Khi hai ta về một nhà khép đôi mi cùng một giường
+        <br />
+        Đôi khi mơ cùng một giấc thức giấc chung một giờ
+        <br />
+        Đôi khi mơ cùng một giấc thức giấc chung một giờ
+        <br />
+        Nước mắt rơi một dòng sống chung nhau một đời
+      </p>
 
-        <div data-aos="fade-up" data-aos-easing="linear">
-          <div class="nama-lengkap" >
-            #
-          </div>
-          <div class="ampersand">&</div>
-          <div class="nama-lengkap">
+      <span class="space40px"></span>
+      <span class="space40px"></span>
+
+      <div data-aos="fade-up" data-aos-easing="linear">
+        <div class="nama-lengkap">
           #
-          </div>
-           
         </div>
-        <span class="space40px"></span>
-        <div data-aos="fade-up" data-aos-easing="linear">
-          <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+        <div class="ampersand">&</div>
+        <div class="nama-lengkap">
+          #
         </div>
-        <span class="space40px"></span>
-        <span class="space40px"></span>
-      </section>
-      <!-- End regular-section-->    
-      
-      <!-- Begin Waktu Section -->
-      <section class="section-dark" id="Waktu">
-        <div class="container">
 
-          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
-            <h1 class="title has-text-centered section-title">THỜI GIAN</h1>
-          </div>
-          <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
-            <div
-              class="column is-4 has-vertically-aligned-content">
-            
-              <p class="is-larger has-text-centered">
-                  <div class="waktu tanggal-hari has-text-centered">Thứ 7</div> 
-                  <div class="waktu tanggal-angka has-text-centered">18</div>
-                  <div class="waktu tanggal-bulan has-text-centered">Tháng 11 2023</div>
-              </p>
-            
-            </div>
-            <div class="column is-4 has-vertically-aligned-content">
-            
-              <p class="waktu is-larger has-text-centered">
-                Mời các bạn tới tham dự bữa cơm thân mật cùng gia đình vào hồi
-                <br>
-                <strong>15:00 giờ</strong>
-              </p>
-            
-            </div>
+      </div>
+      <span class="space40px"></span>
+      <div data-aos="fade-up" data-aos-easing="linear">
+        <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+      </div>
+      <span class="space40px"></span>
+      <span class="space40px"></span>
+    </section>
+    <!-- End regular-section-->
 
-            <div class="column is-4 has-vertically-aligned-content">
-              
-              <h1 class="waktu is-larger has-text-centered">
-                <br>
-                <strong>Các bạn tới chung vui cùng mình nhé !</strong>
-              </h1>
-              
-              
-            </div>
+    <!-- Begin Waktu Section -->
+    <section class="section-dark" id="Waktu">
+      <div class="container">
+
+        <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+          <h1 class="title has-text-centered section-title">THỜI GIAN</h1>
+        </div>
+        <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+          <div class="column is-4 has-vertically-aligned-content">
+
+            <p class="is-larger has-text-centered">
+            <div class="waktu tanggal-hari has-text-centered">Thứ 7</div>
+            <div class="waktu tanggal-angka has-text-centered">18</div>
+            <div class="waktu tanggal-bulan has-text-centered">Tháng 11 2023</div>
+            </p>
 
           </div>
+          <div class="column is-4 has-vertically-aligned-content">
+
+            <p class="waktu is-larger has-text-centered">
+              Mời các bạn tới tham dự bữa cơm thân mật cùng gia đình vào hồi
+              <br>
+              <strong>15:00 giờ</strong>
+            </p>
+
+          </div>
+
+          <div class="column is-4 has-vertically-aligned-content">
+
+            <h1 class="waktu is-larger has-text-centered">
+              <br>
+              <strong>Các bạn tới chung vui cùng mình nhé !</strong>
+            </h1>
+
+
+          </div>
+
         </div>
-        <!-- <div class="space40px"></div>
+      </div>
+      <!-- <div class="space40px"></div>
         <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
           <a href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NGgzdW00NG84dXFwMzcwNXYxbGliNGxzaWggZGFlbmdkb2FuZ0Bt&amp;tmsrc=daengdoang%40gmail.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
             <i class="far fa-calendar-plus"></i>
             &nbsp;&nbsp;Google Calendar
           </a>
         </div> -->
-      </section>
-      <!-- End Waktu Content -->
+    </section>
+    <!-- End Waktu Content -->
 
-      <!-- Begin Lokasi Section -->
-      <section class="section-darker" id="lokasi" >
-        <div class="container">
-          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
-            <h1 class="title has-text-centered section-title">Địa chỉ</h1>
-            <p class="tempat is-larger has-text-centered">
-              <strong>Nhà cô dâu</strong>
-              <br>
-              Thôn Quế Tân, Xã Quế Tân, 
-              <br>
-              Huyện Quế Võ, Tỉnh Bắc Ninh, Việt Nam
-              <br>
-            </p>
-          </div>
-          <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1127.6108638363417!2d106.17529399104289!3d21.16224585365696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31357382f6c6fd91%3A0xc64b48b29282c266!2zTuG7mWkgVGjhuqV0IFF1YW5nIENoaQ!5e1!3m2!1svi!2s!4v1698766937883!5m2!1svi!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-          </div>
-          <div class="space40px"></div>
-          <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
-            <a href="https://maps.app.goo.gl/2MbdNT1Mu6XMcUd59" class="button btn-cta" target="_blank" data-aos="zoom-in">
-              <i class="far fa-directions"></i>
-              &nbsp;&nbsp;Google Maps
-            </a>
-          </div>
+    <!-- Begin Lokasi Section -->
+    <section class="section-darker" id="lokasi">
+      <div class="container">
+        <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+          <h1 class="title has-text-centered section-title">Địa chỉ</h1>
+          <p class="tempat is-larger has-text-centered">
+            <strong>Nhà cô dâu</strong>
+            <br>
+            Thôn Quế Tân, Xã Quế Tân,
+            <br>
+            Huyện Quế Võ, Tỉnh Bắc Ninh, Việt Nam
+            <br>
+          </p>
         </div>
-      </section>
-      <!-- End Lokasi Content -->
-      <!-- Begin RSVP Content -->
-      <section class="section-dark contact" id="rsvp">
-        <div class="container">
-          <div class="columns is-multiline">          
-            <div class="column is-12 prolog">
-              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">#</h1>
+        <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1127.6108638363417!2d106.17529399104289!3d21.16224585365696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31357382f6c6fd91%3A0xc64b48b29282c266!2zTuG7mWkgVGjhuqV0IFF1YW5nIENoaQ!5e1!3m2!1svi!2s!4v1698766937883!5m2!1svi!2s"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="space40px"></div>
+        <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+          <a href="https://maps.app.goo.gl/2MbdNT1Mu6XMcUd59" class="button btn-cta" target="_blank" data-aos="zoom-in">
+            <i class="far fa-directions"></i>
+            &nbsp;&nbsp;Google Maps
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Lokasi Content -->
+    <!-- Begin RSVP Content -->
+    <section class="section-dark contact" id="rsvp">
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-12 prolog">
+            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">#</h1>
+          </div>
+          <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+            <p class="h2 subtitle">
+              #
+              <br>
+              <!-- apabila Bapak/Ibu/Saudara/Saudari berkenan hadir -->
+              <!-- memberikan doa restu. -->
+              <br>
+              <br>
+              <!-- Jika bisa hadir kami tunggu konfirmasinya,  -->
+              <br>
+              <!-- Informasi: Di meja penerima tamu akan kami sediakan hand sanitizer dan pemeriksaan suhu tubuh. -->
+              <br>
+              <br>
+              <!-- Jika tidak memungkinkan untuk hadir di pernikahan kami,tidak mengapa, -->
+              <br>
+              <!-- semoga bisa berjumpa di lain kesempatan -->
+              <br>
+              <br>
+              <!-- Stay safe & jaga kesehatan ya :) -->
+            </p>
+
+            <a href="" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
+              <i class="fab fa-whatsapp"></i>
+              &nbsp;&nbsp;SĐT TRANG
+            </a>
+
+
+
+            <a href="" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
+              <i class="fab fa-whatsapp"></i>
+              &nbsp;&nbsp; SDT HAI
+            </a>
+            <div class="space40px"></div>
+
+            <div class="space40px"></div>
+            <div data-aos="fade-up" data-aos-easing="linear">
+              <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
             </div>
-            <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
-              <p class="h2 subtitle">
-                #
-                <br>
-                <!-- apabila Bapak/Ibu/Saudara/Saudari berkenan hadir -->
-                <!-- memberikan doa restu. -->
-                <br>
-                <br>
-                <!-- Jika bisa hadir kami tunggu konfirmasinya,  -->
-                <br>
-                <!-- Informasi: Di meja penerima tamu akan kami sediakan hand sanitizer dan pemeriksaan suhu tubuh. -->
-                <br>
-                <br>
-                <!-- Jika tidak memungkinkan untuk hadir di pernikahan kami,tidak mengapa, -->
-                <br> 
-                <!-- semoga bisa berjumpa di lain kesempatan -->
-                <br>
-                <br>
-                <!-- Stay safe & jaga kesehatan ya :) -->
-                </p>
-     
-              <a href="" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
-                <i class="fab fa-whatsapp"></i>
-                &nbsp;&nbsp;SĐT TRANG
-              </a>
-              
-
-          
-              <a href="" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
-                <i class="fab fa-whatsapp"></i>
-                &nbsp;&nbsp; SDT HAI
-              </a >
-              <div class="space40px"></div>
-
-              <div class="space40px"></div>
-              <div data-aos="fade-up" data-aos-easing="linear">
-                <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
-              </div>
-              <div class="space40px"></div>
-              <!-- <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
+            <div class="space40px"></div>
+            <!-- <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
                 Kami yang berbahagia,
                 <br>
                 <a class="instagram":" href="https://instagram.com/nengchely" target="_blank" alt="Instagram Sherly">
@@ -443,21 +533,21 @@
                 </a>
               </p> -->
 
-            </div>
- 
-         </div>
-        </div>
-      </section>
-      <!-- End RSVP Content -->
-    </div>
-    <!-- End Main Content -->
+          </div>
 
-    <!-- Begin Footer -->
-    <div class="footer">
-      <div class="container">
-        <a href="https://github.com/daengdoang/daeng-sherly-menikah" class="has-vertically-align">
-          <p class="has-vertically-align">2023 desgin by Nhật Giang</p>
-        </a>
+        </div>
+      </div>
+    </section>
+    <!-- End RSVP Content -->
+  </div>
+  <!-- End Main Content -->
+
+  <!-- Begin Footer -->
+  <div class="footer">
+    <div class="container">
+      <a href="https://github.com/daengdoang/daeng-sherly-menikah" class="has-vertically-align">
+        <p class="has-vertically-align">2023 desgin by Nhật Giang</p>
+      </a>
     </div>
     <!-- End Footer -->
 
@@ -468,17 +558,29 @@
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <link rel="stylesheet" href="css/laroi.css" type="text/css">
     <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "cards",
+      grabCursor: true,
+    });
+  </script>
     <script>
       // domReady
-    $('.sakura-falling').sakura();
-      // windowLoad
-    
-  </script>
+      $('.sakura-falling').sakura();
+    </script>
+    <script>
+      // domReady
+      document.getElementById("my_audio").play();
+    </script>
     <script>
       AOS.init({
         easing: "ease-out",
         duration: 800,
       });
     </script>
-  </body>
+</body>
+
 </html>

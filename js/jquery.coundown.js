@@ -110,8 +110,3 @@
 		var interval = setInterval(countdown, 1000);
 	};
 })(jQuery);
-
-(function ($) {
-    "use strict";
-      $('.sakura-falling').Date;
-})(jQuery);

@@ -24,10 +24,13 @@ h2 {
 .header-wrapper {
   padding-bottom: 30px;
 }
-
+/* .navbar {
+  width: max-content;
+  height: 50px;
+} */
 .navbar-item {
-  line-height: 38px;
-  font-weight: 600;
+  line-height: 20px;
+  font-weight: 400;
   letter-spacing: 1px;
   font-size: 1rem;
 }
@@ -129,7 +132,7 @@ h2 {
 
 .main-content {
   padding-top: 2rem;
-  color: #000; 
+  color: rgb(94, 88, 88);
   font-family: 'Raleway', sans-serif;
 }
 
@@ -325,11 +328,13 @@ vertical-align: middle;
 .waktu {
   font-size: 1.4rem;
   font-family: 'Agbalumo', sans-serif;
+  color: rgb(94, 88, 88);
 }
 
 .tanggal-angka {
   font-size: 5rem;
   font-family: 'Agbalumo', sans-serif;
+  color: rgb(94, 88, 88);
   font-weight: 900;
   line-height: 1;
 }
@@ -337,6 +342,7 @@ vertical-align: middle;
 .tempat {
   font-size: 1.4rem;
   font-family: 'Agbalumo', sans-serif;
+  color: rgb(94, 88, 88);
   margin-bottom: 50px;
 }
 
