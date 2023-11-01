@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Carattere&family=Roboto+Condensed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Carattere&family=Gothic+A1:wght@100&family=Roboto+Condensed:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Amatic+SC&family=Carattere&family=Roboto+Condensed:wght@300&display=swap');
 
 .has-vertically-aligned-content {
   display: flex;
@@ -11,7 +12,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Agbalumo', sans-serif;
+  font-family: 'Amatic SC', sans-serif;
 }
 
 html {
@@ -146,7 +147,7 @@ h2 {
 
 .main-content .section-darker {
   background-color: #fffdf9;
-  padding: 80px 40px;
+  padding: 0px 40px;
 }
 
 .main-content .section-dark.resume {
@@ -301,7 +302,7 @@ h2 {
 }
 
 .main-content .section-title {
-  font-family: 'Agbalumo', sans-serif;
+  font-family: 'Amatic SC', sans-serif;
   font-weight: 100;
   color: #295138;
   text-transform: uppercase;
@@ -311,7 +312,7 @@ h2 {
 }
 
 .nama-lengkap {
-  font-family: 'Agbalumo', sans-serif;
+  font-family: 'Amatic SC', sans-serif;
   color: #996E6D;
   font-size: 3.5rem;
   letter-spacing: 0px;
@@ -321,7 +322,7 @@ h2 {
 
 .ampersand {
   font-size: 5rem;
-  font-family: 'Agbalumo', sans-serif;
+  font-family: 'Amatic SC', sans-serif;
   color: #996E6D;
   line-height: 5rem;
   display: inline-block;
@@ -334,22 +335,22 @@ h2 {
 
 .waktu {
   font-size: 1.4rem;
-  font-family: 'Agbalumo', sans-serif;
-  color: rgb(94, 88, 88);
+  font-family: 'Amatic SC', sans-serif;
+  color: #295138;
 }
 
 .tanggal-angka {
   font-size: 5rem;
-  font-family: 'Agbalumo', sans-serif;
-  color: rgb(94, 88, 88);
+  font-family: 'Amatic SC', sans-serif;
+  color: #295138;
   font-weight: 900;
   line-height: 1;
 }
 
 .tempat {
   font-size: 1.4rem;
-  font-family: 'Agbalumo', sans-serif;
-  color: rgb(94, 88, 88);
+  font-family: 'Amatic SC', sans-serif;
+  color: #295138;
   margin-bottom: 50px;
 }
 
@@ -365,7 +366,7 @@ h2 {
   line-height: 25px;
   text-align: center;
   vertical-align: middle;
-  background: #c28285;
+  background: #295238;
   color: whitesmoke;
 }
 
@@ -504,10 +505,10 @@ body.preloader-site {
 
 .btn-cta:hover {
   color: white;
-  background-color: #bf7877;
+  background-color: #63cf8b;
   font-size: 1.2rem;
   border-radius: 10px;
-  border: 2px solid #bf7877;
+  border: 2px solid #63cf8b;
   width: 210px;
   height: 65px;
   align-items: center;
@@ -515,12 +516,12 @@ body.preloader-site {
 }
 
 .btn-cta {
-  background-color: #996E6D;
+  background-color: #295238;
   width: 210px;
   height: 65px;
   color: white;
   font-size: 1.2rem;
-  border: 2px solid #996E6D;
+  border: 2px solid #295238;
   border-radius: 10px;
   align-items: center;
   margin: 1rem;
@@ -684,7 +685,13 @@ body.preloader-site {
   text-align: center;
   padding: 10px;
 }
-
+.textcustom {
+  font-family: 'Amatic SC', sans-serif;
+  color: #295138;
+  font-size: 3rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .music {
   display: none;
 }
