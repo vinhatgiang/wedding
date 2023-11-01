@@ -274,7 +274,9 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="swiper-pagination" style="margin: top 50px;"></div> -->
+              <div class="swiper-pagination"></div>
+              <!-- <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div> -->
             </div>
 
             <!-- IMAGES -->
@@ -559,28 +561,40 @@
     <link rel="stylesheet" href="css/laroi.css" type="text/css">
     <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <!-- Initialize Swiper -->
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      effect: "cards",
-      grabCursor: true,
-    });
-  </script>
+    <!-- Initialize Swiper -->
     <script>
-      // domReady
-      $('.sakura-falling').sakura();
-    </script>
-    <script>
-      // domReady
-      document.getElementById("my_audio").play();
-    </script>
-    <script>
-      AOS.init({
-        easing: "ease-out",
-        duration: 800,
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
       });
     </script>
+</body>
+<script>
+  // domReady
+  $('.sakura-falling').sakura();
+</script>
+<script>
+  // domReady
+  document.getElementById("my_audio").play();
+</script>
+<script>
+  AOS.init({
+    easing: "ease-out",
+    duration: 800,
+  });
+</script>
 </body>
 
 </html>
