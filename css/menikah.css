@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Carattere&family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Carattere&family=Gothic+A1:wght@100&family=Roboto+Condensed:wght@300&display=swap");
 
 .has-vertically-aligned-content {
   display: flex;
@@ -131,7 +132,6 @@ h2 {
 }
 
 .main-content {
-  padding-top: 2rem;
   color: rgb(94, 88, 88);
   font-family: 'Raleway', sans-serif;
 }
@@ -213,7 +213,7 @@ h2 {
 }
 
 .main-content .section-light {
-  padding: 80px 40px;
+  padding: 5px 40px;
 }
 
 .main-content .section-light.regular-section {
@@ -290,7 +290,7 @@ h2 {
 
 .main-content .section-color.pertanyaan i {
   font-size: 3rem;
-  padding: 20px;
+  padding: 10px;
 }
 
 .main-content .section-title {

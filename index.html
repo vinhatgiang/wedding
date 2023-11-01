@@ -20,7 +20,9 @@
   <link rel="stylesheet" type="text/css" href="css/menikah.css" />
   <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Carattere&family=Gothic+A1:wght@100&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://kit.fontawesome.com/2828f7885a.js"
     integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
@@ -190,14 +192,53 @@
 
   <!-- Begin Main Content -->
   <div class="main-content">
+    
 
-    <!-- Begin Tentang Sherly and Daeng -->
+    <!-- Begin regular-section-->
+    <!-- <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content"
+      id="regular-section">
+
+      <div data-aos="fade-up" data-aos-easing="linear">
+        <img src="image/bismillah.png" class="bismillah has-text-centered" alt="Bismillahirrahmaanirrahiim"
+          style="width: max-content ; height: max-content;">
+      </div>
+
+      <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+        Khi hai ta về một nhà khép đôi mi cùng một giường
+        <br />
+        Đôi khi mơ cùng một giấc thức giấc chung một giờ
+        <br />
+        Đôi khi mơ cùng một giấc thức giấc chung một giờ
+        <br />
+        Nước mắt rơi một dòng sống chung nhau một đời
+      </p>
+
+      <span class="space40px"></span>
+      <span class="space40px"></span>
+
+      <div data-aos="fade-up" data-aos-easing="linear">
+        <div class="nama-lengkap">
+          #
+        </div>
+        <div class="ampersand">&</div>
+        <div class="nama-lengkap">
+          #
+        </div>
+
+      </div>
+      <span class="space40px"></span>
+      <div data-aos="fade-up" data-aos-easing="linear">
+        <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+      </div>
+      <span class="space40px"></span>
+      <span class="space40px"></span>
+    </section> -->
+    <!-- End regular-section-->
     <section class="section-light regular-section is-fullheight" id="tentang-sherly-daeng">
       <div class="container">
         <div class="columns is-multiline">
           <div class="column has-text-centered is-12 prolog">
-            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Chúng mình đã
-              có nhau</h1>
+            <p class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Ánh</p>
             <!-- Swiper -->
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
@@ -357,48 +398,6 @@
         </div>
     </section>
     <!-- End Tentang Sherly dan Daeng -->
-
-    <!-- Begin regular-section-->
-    <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content"
-      id="regular-section">
-
-      <div data-aos="fade-up" data-aos-easing="linear">
-        <img src="image/bismillah.png" class="bismillah has-text-centered" alt="Bismillahirrahmaanirrahiim"
-          style="width: max-content ; height: max-content;">
-      </div>
-
-      <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
-        Khi hai ta về một nhà khép đôi mi cùng một giường
-        <br />
-        Đôi khi mơ cùng một giấc thức giấc chung một giờ
-        <br />
-        Đôi khi mơ cùng một giấc thức giấc chung một giờ
-        <br />
-        Nước mắt rơi một dòng sống chung nhau một đời
-      </p>
-
-      <span class="space40px"></span>
-      <span class="space40px"></span>
-
-      <div data-aos="fade-up" data-aos-easing="linear">
-        <div class="nama-lengkap">
-          #
-        </div>
-        <div class="ampersand">&</div>
-        <div class="nama-lengkap">
-          #
-        </div>
-
-      </div>
-      <span class="space40px"></span>
-      <div data-aos="fade-up" data-aos-easing="linear">
-        <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
-      </div>
-      <span class="space40px"></span>
-      <span class="space40px"></span>
-    </section>
-    <!-- End regular-section-->
-
     <!-- Begin Waktu Section -->
     <section class="section-dark" id="Waktu">
       <div class="container">
@@ -563,22 +562,30 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
+      // var swiper = new Swiper(".mySwiper", {
+      //   effect: "coverflow",
+      //   grabCursor: true,
+      //   centeredSlides: true,
+      //   slidesPerView: "auto",
+      //   coverflowEffect: {
+      //     rotate: 50,
+      //     stretch: 0,
+      //     depth: 100,
+      //     modifier: 1,
+      //     slideShadows: true,
+      //   },
+      //   pagination: {
+      //     el: ".swiper-pagination",
+      //   },
+      // });
       var swiper = new Swiper(".mySwiper", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
+      slidesPerView: "auto",
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
     </script>
 </body>
 <script>
