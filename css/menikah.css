@@ -217,7 +217,7 @@ h2 {
 }
 
 .main-content .section-light {
-  padding: 5px 40px;
+  padding: 5px 5px;
 }
 
 .main-content .section-light.regular-section {
@@ -309,6 +309,7 @@ h2 {
   font-size: 1.5rem;
   letter-spacing: 0px;
   padding-bottom: 5px;
+  padding-top: 10px;
 }
 
 .nama-lengkap {
@@ -346,7 +347,13 @@ h2 {
   font-weight: 900;
   line-height: 1;
 }
-
+.tanggal-angka1 {
+  font-size: 3rem;
+  font-family: 'Amatic SC', sans-serif;
+  color: #295138;
+  font-weight: 500;
+  line-height: 1;
+}
 .tempat {
   font-size: 1.4rem;
   font-family: 'Amatic SC', sans-serif;
@@ -689,6 +696,13 @@ body.preloader-site {
   font-family: 'Amatic SC', sans-serif;
   color: #295138;
   font-size: 3rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.textcustoma {
+  font-family: 'Amatic SC', sans-serif;
+  color: #295138;
+  font-size: larger;
   margin-top: 10px;
   margin-bottom: 10px;
 }
