@@ -50,7 +50,7 @@ h2 {
 
 
 .hero {
-  background-image: linear-gradient(rgba(248, 244, 244, 0.068), rgba(136, 103, 103, 0.9)), url("../image/4.jpg");
+  background-image: linear-gradient(rgba(248, 244, 244, 0.068), rgba(136, 103, 103, 0.9)), url("../image/16.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -347,6 +347,7 @@ h2 {
   font-weight: 900;
   line-height: 1;
 }
+
 .tanggal-angka1 {
   font-size: 3rem;
   font-family: 'Amatic SC', sans-serif;
@@ -354,6 +355,7 @@ h2 {
   font-weight: 500;
   line-height: 1;
 }
+
 .tempat {
   font-size: 1.4rem;
   font-family: 'Amatic SC', sans-serif;
@@ -604,7 +606,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: url("../image/1.jpg");
+  background-image: url("../image/8.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -613,7 +615,7 @@ body.preloader-site {
 
 
 .foto2 {
-  background-image:  url("../image/2.jpg");
+  background-image: url("../image/10.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -621,7 +623,7 @@ body.preloader-site {
 }
 
 .foto3 {
-  background-image:  url("../image/3.jpg");
+  background-image: url("../image/11.jpg");
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
@@ -629,7 +631,7 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image:  url("../image/4.jpg");
+  background-image: url("../image/12.jpg");
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
@@ -637,7 +639,7 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image:  url("../image/5.jpg");
+  background-image: url("../image/13.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -646,14 +648,40 @@ body.preloader-site {
 
 
 .foto6 {
-  background-image:  url("../image/6.jpg");
+  background-image: url("../image/15.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
 }
 
+.foto7 {
+  background-image: url("../image/9.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 24rem;
+}
 
+.foto8 {
+  background-image: url("../image/14.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 24rem;
+}
+
+.foto9 {
+  background-image: url("../image/7.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 24rem;
+}
+
+:root {
+  --swiper-theme-color: #295138 !important;
+}
 
 .title-foto {
   font-size: 18pt;
@@ -692,6 +720,7 @@ body.preloader-site {
   text-align: center;
   padding: 10px;
 }
+
 .textcustom {
   font-family: 'Amatic SC', sans-serif;
   color: #295138;
@@ -699,6 +728,7 @@ body.preloader-site {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .textcustoma {
   font-family: 'Amatic SC', sans-serif;
   color: #295138;
@@ -706,6 +736,7 @@ body.preloader-site {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .music {
   display: none;
 }

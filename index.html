@@ -291,6 +291,27 @@
                     </article>
                   </div>
                 </div>
+                <div class="swiper-slide">
+                  <div class="tile is-parent">
+                    <article class="tile is-child foto1 notification foto7" data-aos="fade-up" data-aos-easing="linear">
+
+                    </article>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="tile is-parent">
+                    <article class="tile is-child foto1 notification foto8" data-aos="fade-up" data-aos-easing="linear">
+
+                    </article>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="tile is-parent">
+                    <article class="tile is-child foto1 notification foto9" data-aos="fade-up" data-aos-easing="linear">
+
+                    </article>
+                  </div>
+                </div>
               </div>
               <div class="swiper-pagination"></div>
               <!-- <div class="swiper-button-next"></div>
@@ -507,7 +528,17 @@
       const progressContent = document.querySelector(".autoplay-progress span");
       var swiper = new Swiper(".mySwiper", {
         spaceBetween: 30,
+        effect: "coverflow",
+        grabCursor: true,
         centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
         autoplay: {
           delay: 2000,
           disableOnInteraction: false
@@ -521,15 +552,12 @@
           prevEl: ".swiper-button-prev"
         },
       });
+      $('.sakura-falling').sakura();
     </script>
 </body>
 <script>
   // domReady
   $('.sakura-falling').sakura();
-</script>
-<script>
-  // domReady
-  document.getElementById("my_audio").play();
 </script>
 <script>
   AOS.init({
