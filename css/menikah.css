@@ -75,7 +75,12 @@ h2 {
   color: whitesmoke;
   font-size: 1.3rem;
 }
-
+.hero .subtitlea {
+  font-family: 'Carattere', sans-serif;
+  padding: 35px;
+  color: whitesmoke;
+  font-size: 1rem;
+}
 .hero .tempatwaktu {
   padding-top: 35px;
   font-size: 1.3rem;
