@@ -34,7 +34,7 @@ $(document).on("click", 'a[href^="#"]', function(event) {
 
 
 $(document).on('click', function(){
-  document.getElementById("my_audio").play();
+  // document.getElementById("my_audio").play();
   console.log('play');
 });
 

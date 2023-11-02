@@ -30,7 +30,7 @@
   <script src="https://kit.fontawesome.com/2828f7885a.js"
     integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
     crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="js/jquery.coundown.js"></script>
   <link rel="icon" type="image/png" href="image/favicon.png" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -279,13 +279,6 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="tile is-parent">
-                    <article class="tile is-child foto1 notification foto5" data-aos="fade-up" data-aos-easing="linear">
-
-                    </article>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="tile is-parent">
                     <article class="tile is-child foto1 notification foto6" data-aos="fade-up" data-aos-easing="linear">
 
                     </article>
@@ -493,7 +486,7 @@
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <link rel="stylesheet" href="css/laroi.css" type="text/css">
-    <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
+    <script src='js/hieuung.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
     <!-- <script>
@@ -552,7 +545,13 @@
           prevEl: ".swiper-button-prev"
         },
       });
-      $('.sakura-falling').sakura();
+      // swiper.
+    </script>
+    <script>
+      $("body").bind("swipe", function(e) {
+        document.getElementById("my_audio").play();
+        console.log('play');
+      }); 
     </script>
 </body>
 <script>
