@@ -34,19 +34,19 @@ h2 {
   height: 50px;
 } */
 .navbar-item {
-  line-height: 20px;
+  line-height: 10px;
   font-weight: 400;
   letter-spacing: 1px;
   font-size: 1rem;
 }
 
-.navbar-item.is-active {
+/* .navbar-item.is-active {
   border-bottom: 2px solid #996E6D;
-}
-
+} */
+/* 
 .a.navbar-item {
   font-color: #996E6D;
-}
+} */
 
 
 .hero {
