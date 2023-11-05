@@ -59,7 +59,11 @@ h2 {
   font-family: 'Raleway', sans-serif;
 }
 
-
+.timecoudow ul li{
+  font-family: 'Agbalumo', sans-serif;
+  font-weight: 1;
+  font-size: 2rem;
+}
 
 .hero .title {
   font-family: 'Agbalumo', sans-serif;

@@ -95,7 +95,7 @@
 				seconds = (String(seconds).length >= 2) ? seconds : '0' + seconds;
 
 			// set to DOM
-			container.find('.days').text(days);
+			container.find('.dayss').text(days);
 			container.find('.hours').text(hours);
 			container.find('.minutes').text(minutes);
 			container.find('.seconds').text(seconds);

@@ -21,6 +21,8 @@
   <link rel="stylesheet" type="text/css" href="css/menikah.css" />
   <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link rel="stylesheet" href="css/calender.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -51,7 +53,7 @@
 <body>
   <div class="sakura-falling" style="height: max-content;"></div>
   <div class="music">
-    <audio src="mp3/background2.mp3" id="my_audio" loop="loop"></audio>
+    <audio src="mp3/bg.mp3" id="my_audio" loop="loop"></audio>
   </div>
   <!-- Begin Preloader -->
   <div class="preloader-wrapper">
@@ -121,9 +123,9 @@
           </h4>
         </div>
         <!-- Start Countdown -->
-        <div>
+        <div class="timeCountdown">
           <ul id="hitungmundur">
-            <li><span class="days">00</span>
+            <li><span class="dayss">00</span>
               <p class="days_text">Ngày</p>
             </li>
             <li class="separator">:</li>
@@ -352,9 +354,50 @@
                   <br>
                   15:00 giờ
                 </p>
-
               </div>
-
+              <div class="containercalender flex">
+                <div class="calendar">
+                  <div class="month flex">
+                    <div class="prev">
+                      <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="nd">
+                      <h1>Tháng 11</h1>
+                      <p>18 Tháng 11 Năm 2023</p>
+                    </div>
+                    <div class="next">
+                      <i class="fas fa-chevron-right"></i>
+                    </div>
+                  </div>
+            
+                  <div class="weekngay flex">
+                    <div>Hai</div>
+                    <div>Ba</div>
+                    <div>Tư</div>
+                    <div>Năm</div>
+                    <div>Sáu</div>
+                    <div>Bảy</div>
+                    <div>Chủ nhật</div>
+                  </div>
+            
+                  <div class="ngay flex">
+                    <div class="previous-day">26</div>
+                    <div class="previous-day">27</div>
+                    <div class="previous-day">28</div>
+                    <div class="previous-day">29</div>
+                    <div class="previous-day">30</div>
+                    <div class="previous-day">31</div>
+                    <div class="">1</div>
+                    <div class="today">11</div>
+                    <div class="">31</div>
+                    <div class="next-ngay">1</div>
+                    <div class="next-ngay">2</div>
+                    <div class="next-ngay">3</div>
+                    <div class="next-ngay">4</div>
+                    <div class="next-ngay">5</div>
+                  </div>
+                </div>
+              </div>
               <div class="column is-4 has-vertically-aligned-content">
 
                 <h1 class="waktu is-larger has-text-centered">
@@ -384,9 +427,9 @@
             <p class="tempat is-larger has-text-centered">
               Nhà cô dâu
               <br>
-              Thôn Quế Tân, Xã Quế Tân,
+              Khu phố Quế Tân, Phường Quế Tân,
               <br>
-              Huyện Quế Võ, Tỉnh Bắc Ninh, Việt Nam
+              Thị Xã Quế Võ, Tỉnh Bắc Ninh, Việt Nam
               <br>
             </p>
           </div>
@@ -439,7 +482,9 @@
             <p class="textcustoma">
               Tại nhà cô dâu vào hồi 9 giờ, Ngày 18/11/2023.
               <br>
-              Thôn Quế Tân, Xã Quế Tân, Huyện Quế Võ, Tỉnh Bắc Ninh
+              Khu phố Quế Tân, Phường Quế Tân,
+              <br>
+              Thị Xã Quế Võ, Tỉnh Bắc Ninh, Việt Nam
               <br>
               Chúng tôi chân thành mong chờ bạn cùng đến chung vui.
             </p>
@@ -491,6 +536,7 @@
     <link rel="stylesheet" href="css/laroi.css" type="text/css">
     <script src='js/hieuung.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/calender.js"></script>
     <!-- Initialize Swiper -->
     <!-- <script>
       // var swiper = new Swiper(".mySwiper", {
@@ -555,6 +601,7 @@
   // domReady
   $('.sakura-falling').sakura();
 </script>
+
 <script>
   AOS.init({
     easing: "ease-out",
