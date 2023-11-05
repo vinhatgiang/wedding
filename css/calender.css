@@ -23,10 +23,11 @@
     background: #ff9a8b;
     background-image: linear-gradient(
       90deg,
-      #e9d3a7 0%,
-      #e9d3a7 55%,
-      #e9d3a7 100%
+      #e8e9b3 0%,
+      #e8e9b3 55%,
+      #e8e9b3 100%
     );
+    color: #295138;
     justify-content: space-between !important;
     text-align: center;
   }
@@ -47,7 +48,9 @@
     font-weight: 300;
     color: rgba(0,0,0,0.8)
   }
-  
+  .nd p {
+    color: #295138;
+  }
   .weekngay{
     width: 100%;
     padding: 10px;
