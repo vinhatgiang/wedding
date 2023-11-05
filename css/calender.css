@@ -62,6 +62,8 @@
     font-weight: 500;
     margin: 0 5px;
     transition: 0.2s;
+    color: #295138;
+  
   }
   .ngay{
     width: 100%;
@@ -77,6 +79,7 @@
     text-align: center;
     font-size: 20px;
     font-weight: 400;
+    color: #295138;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -41,9 +41,9 @@ const renderCalendar = () => {
         "Tháng 11",
         "Tháng 12",
     ]
-
+    const datenow = new Date();
     document.querySelector('.nd h1').innerHTML = months[date.getMonth()];
-    document.querySelector('.nd p').innerHTML = new Date().toDateString();
+    document.querySelector('.nd p').innerHTML = "Bây giờ " + datenow.getDate() +"/" + (datenow.getMonth()+1) + "/" + date.getFullYear();
 
     let ngay = "";
 
