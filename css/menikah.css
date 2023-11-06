@@ -59,6 +59,13 @@ h2 {
   font-family: 'Raleway', sans-serif;
 }
 
+.hero-body {
+  padding-top: 1.5rem !important;
+  padding-bottom: 3rem !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
 .hero .title {
   font-family: 'Agbalumo', sans-serif;
   font-weight: 1;
