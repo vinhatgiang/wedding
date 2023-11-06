@@ -51,8 +51,18 @@ const renderCalendar = () => {
         ngay += `<div class="previous-day">${prevLastDay - x + 1}</div>`
     }
 
+    // for (let i = 1; i <= lastDay; i++) {
+    //     if (i === 18 && date.getMonth() === new Date().getMonth()) {
+            
+    //     } else {
+    //         ngay += `<div class="">${i}</div>`
+    //     }
+    // }
+
     for (let i = 1; i <= lastDay; i++) {
-        if (i === 18 && date.getMonth() === new Date().getMonth()) {
+        if (i === new Date().getDate() && date.getMonth() === new Date().getMonth()) {
+            ngay += `<div class="today1">${i}</div>`
+        } else if (i===18) {
             ngay += `<div class="today">${i}</div>`
         } else {
             ngay += `<div class="">${i}</div>`

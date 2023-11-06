@@ -73,6 +73,14 @@ h2 {
   color: whitesmoke;
   font-size: 1.3rem;
 }
+
+.hero .subtitle1 {
+  font-family: 'Carattere', sans-serif;
+  padding: 35px;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
 .hero .subtitlea {
   font-family: 'Carattere', sans-serif;
   padding: 35px;

@@ -99,6 +99,15 @@
     border-radius: 50%;
     transition: 0.2s;
   }
+
+  .ngay .today1{
+    background: #534b4b1c;
+    cursor: pointer;
+    color: #295138;
+    border-radius: 50%;
+    transition: 0.2s;
+  }
+
   .ngay .today:hover{
     background: #f95c79;
   }
