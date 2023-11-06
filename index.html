@@ -70,8 +70,8 @@
       <nav class="navbar">
         <!-- Begin Burger Menu -->
         <div class="navbar">
-          <div class="navbar" data-target="mobile-nav" style="padding-left: 10px; padding-top: 10px; ">
-            <i class="fas fa-volume-up fa-sm" style="width: 30px; height: 30px; left: auto;"></i>
+          <div class="navbar" data-target="mobile-nav" id="navbutton" style="padding-left: 10px; padding-top: 10px; ">
+            <i class="fas fa-volume-mute fa-sm" style="width: 30px; height: 30px; left: auto;"></i>
           </div>
         </div>
       </nav>
@@ -574,6 +574,15 @@
 <script>
   // domReady
   $('.sakura-falling').sakura();
+
+  $('.navbar').click(function() {
+    $(this).find('.fa-volume-mute').toggleClass('fa-volume-up').toggleClass('fa-volume-mute');
+  });
+
+  $(document).ready(function(){ 
+     $('.navbar').click(); 
+});
+
 </script>
 
 <script>

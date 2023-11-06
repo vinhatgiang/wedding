@@ -43,7 +43,7 @@ const renderCalendar = () => {
     ]
     const datenow = new Date();
     document.querySelector('.nd h1').innerHTML = months[date.getMonth()];
-    document.querySelector('.nd p').innerHTML = "Bây giờ " + datenow.getDate() +"/" + (datenow.getMonth()+1) + "/" + date.getFullYear();
+    document.querySelector('.nd p').innerHTML = "Bây giờ " + datenow.getDate() + "/" + (datenow.getMonth() + 1) + "/" + date.getFullYear();
 
     let ngay = "";
 
@@ -53,7 +53,7 @@ const renderCalendar = () => {
 
     // for (let i = 1; i <= lastDay; i++) {
     //     if (i === 18 && date.getMonth() === new Date().getMonth()) {
-            
+
     //     } else {
     //         ngay += `<div class="">${i}</div>`
     //     }
@@ -62,14 +62,14 @@ const renderCalendar = () => {
     for (let i = 1; i <= lastDay; i++) {
         if (i === new Date().getDate() && date.getMonth() === new Date().getMonth()) {
             ngay += `<div class="today1">${i}</div>`
-        } else if (i===18) {
+        } else if (i === 18 && date.getMonth() === 10) {
             ngay += `<div class="today">${i}</div>`
         } else {
             ngay += `<div class="">${i}</div>`
         }
     }
 
-    for (let j = 1; j <= nextDays +1; j++) {
+    for (let j = 1; j <= nextDays + 1; j++) {
         ngay += `<div class="next-ngay">${j}</div>`
         monthDays.innerHTML = ngay;
     }
