@@ -10,13 +10,13 @@ ul#hitungmundur li {
 	display: inline-block;
 }
 ul#hitungmundur li span {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 500;
 	line-height: 30px;
 	font-family: 'Times New Roman', Times, serif;
 }
 ul#hitungmundur li.separator {
-	font-size: 30px;
+	font-size: 25px;
 	line-height: 25px;
 	vertical-align: top;
 }
